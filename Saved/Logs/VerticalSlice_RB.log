@@ -1042,3 +1042,455 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.20-14.13.37:548][285]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
 [2022.05.20-14.13.37:548][285]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
 [2022.05.20-14.13.37:691][285]EditorErrors: Warning: No assets to check in!
+[2022.05.20-14.17.04:796][524]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.20-14.17.04:869][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.20-14.17.04:869][524]PIE: New page: PIE session: Level1RestingStation (20 May 2022, 16:17:04)
+[2022.05.20-14.17.04:869][524]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1RestingStation
+[2022.05.20-14.17.04:874][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004808s)
+[2022.05.20-14.17.04:875][524]LogAIModule: Creating AISystem for world Level1RestingStation
+[2022.05.20-14.17.04:875][524]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2022.05.20-14.17.04:875][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Level1RestingStation.Level1RestingStation to /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1RestingStation.Level1RestingStation (0.006189s)
+[2022.05.20-14.17.04:881][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.05.20-14.17.04:881][524]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.20-14.17.04:881][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.20-14.17.04:881][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.20-14.17.04:882][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.20-14.17.04:882][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.20-14.17.04:882][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.20-14.17.04:882][524]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.20-14.17.04:883][524]LogAudioMixer: Display: Using Audio Device Unknown
+[2022.05.20-14.17.04:883][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.20-14.17.04:883][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.20-14.17.04:883][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.20-14.17.04:884][524]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.20-14.17.04:884][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.20-14.17.04:884][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.20-14.17.04:884][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.20-14.17.04:884][524]LogAudioMixer: Display: StartRunningNullDevice() called
+[2022.05.20-14.17.04:885][524]LogInit: FAudioDevice initialized.
+[2022.05.20-14.17.04:885][524]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level1RestingStation'.
+[2022.05.20-14.17.04:951][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.20-14.17.04:952][524]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.20-14.17.04:957][524]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1RestingStation.Level1RestingStation up for play (max tick rate 0) at 2022.05.20-15.17.04
+[2022.05.20-14.17.04:957][524]LogWorld: Bringing up level for play took: 0.002689
+[2022.05.20-14.17.04:957][524]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2022.05.20-14.17.04:961][524]PIE: Server logged in
+[2022.05.20-14.17.04:962][524]PIE: Play in editor total start time 0.099 seconds.
+[2022.05.20-14.17.10:476][181]LogNet: Browse: /Game/ThirdPersonBP/Maps/Level2StorageRoom
+[2022.05.20-14.17.10:476][181]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/Level2StorageRoom
+[2022.05.20-14.17.10:476][181]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level1RestingStation
+[2022.05.20-14.17.10:476][181]LogWorld: UWorld::CleanupWorld for Level1RestingStation, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.17.10:476][181]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.17.10:525][181]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.20-14.17.10:526][181]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.05.20-14.17.10:589][181]LogAudio: Display: Audio Device (ID: 3) registered with world 'Level2StorageRoom'.
+[2022.05.20-14.17.10:590][181]LogAIModule: Creating AISystem for world Level2StorageRoom
+[2022.05.20-14.17.10:590][181]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.20-14.17.10:594][181]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2StorageRoom.Level2StorageRoom up for play (max tick rate 0) at 2022.05.20-15.17.10
+[2022.05.20-14.17.10:594][181]LogWorld: Bringing up level for play took: 0.003396
+[2022.05.20-14.17.10:596][181]LogLoad: Took 0.119760 seconds to LoadMap(/Game/ThirdPersonBP/Maps/Level2StorageRoom)
+[2022.05.20-14.17.11:748][312]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.20-14.17.11:748][312]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_Level2StorageRoom
+[2022.05.20-14.17.11:749][312]LogSlate: Window 'VerticalSlice_RB Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.20-14.17.11:755][312]LogWorld: UWorld::CleanupWorld for Level2StorageRoom, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.17.11:755][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.17.11:766][312]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.20-14.17.11:767][312]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.17.11:772][312]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.20-14.17.11:772][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.20-14.17.11:773][312]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.20-14.17.11:773][312]LogAudioMixer: Display: StopRunningNullDevice() called
+[2022.05.20-14.17.11:781][312]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2022.05.20-14.17.11:838][313]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2022.05.20-14.32.25:100][730]LogSlate: Took 0.000516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.05.20-14.32.25:395][730]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Textures/Rope/Rope_Material.001_BaseColor.png)
+[2022.05.20-14.32.25:426][730]LogTexture: Display: Building textures: Rope_Material_001_BaseColor (OODLE_AutoDXT, 1024X1024)
+[2022.05.20-14.32.25:523][730]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.20-14.32.25:659][730]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Textures/Rope/Rope_Material.001_Metallic.png)
+[2022.05.20-14.32.25:663][730]LogTexture: Display: Building textures: Rope_Material_001_Metallic (OODLE_AutoDXT, 1024X1024)
+[2022.05.20-14.32.25:692][730]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.20-14.32.25:854][730]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Textures/Rope/Rope_Material.001_Normal.png)
+[2022.05.20-14.32.25:884][730]LogTexture: Display: Building textures: Rope_Material_001_Normal (OODLE_BC5, 1024X1024)
+[2022.05.20-14.32.25:911][730]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_BC5 (Oodle OodleTex_BC5U) lambda=0 effort=20 
+[2022.05.20-14.32.26:174][730]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Textures/Rope/Rope_Material.001_Roughness.png)
+[2022.05.20-14.32.26:185][730]LogTexture: Display: Building textures: Rope_Material_001_Roughness (OODLE_AutoDXT, 1024X1024)
+[2022.05.20-14.32.26:236][730]LogTextureFormatOodle: Display: non-RDO encode 1024 x 1024 x 1 to format OODLE_AutoDXT (Oodle OodleTex_BC1_WithTransparency) lambda=0 effort=20 
+[2022.05.20-14.32.35:254][754]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.05.20-14.32.35:264][754]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.05.20-14.32.38:139][ 99]LogContentBrowser: Attempting asset rename: NewMaterial -> Rope
+[2022.05.20-14.32.38:290][ 99]LogContentBrowser: End creating deferred item NewMaterial
+[2022.05.20-14.32.39:917][281]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.32.39:919][281]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: A628E8E417DFE799B0610B62E701D565ACE71401), compiling. 
+[2022.05.20-14.32.39:942][281]LogShaderCompilers: Display: Submitted 10 shader compile jobs with 'Normal' priority
+[2022.05.20-14.32.39:947][281]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.05.20-14.32.40:021][281]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.05.20-14.32.40:224][281]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 50798F3263E0C25D9C77E9E5388D374FD22B8449), compiling. 
+[2022.05.20-14.32.40:225][281]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 7368119AB858BFBC3DB03FB7E59E76E20E89257D), compiling. 
+[2022.05.20-14.32.40:316][281]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.32.40:319][281]LogSlate: Took 0.000578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.32.40:392][281]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: Total job queries 20, among them cache hits 0 (0.00%)
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: RAM used: 0.01 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.05.20-14.32.41:271][367]LogShaderCompilers: Display: ================================================
+[2022.05.20-14.32.41:358][370]LogSlate: Window 'Rope' being destroyed
+[2022.05.20-14.32.41:361][370]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.20-14.32.42:005][437]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.32.42:005][437]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.32.42:504][491]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.05.20-14.32.42:504][491]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.05.20-14.32.42:504][491]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.05.20-14.32.42:504][491]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.20-14.32.43:511][605]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 147B31220B2FD838A42C6F180CBD25E955F39E09), compiling. 
+[2022.05.20-14.32.43:513][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2A2C88CB881D097DB50278B8D3D1A168F3D587C2), compiling. 
+[2022.05.20-14.32.43:514][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0B53139EAE8F9DE65A7E7C9026897DCEF6E3DA0F), compiling. 
+[2022.05.20-14.32.43:522][605]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 4C2ABD7B6D2F2F48C715B0697A9AF6006B1FFB74), compiling. 
+[2022.05.20-14.32.43:523][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 60DFB593D48A4157E762EC338109CD1DE61C1F12), compiling. 
+[2022.05.20-14.32.43:525][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A6D46E602FF9F9B9175ED967CBD22A8F84B746EB), compiling. 
+[2022.05.20-14.32.43:526][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: C4468FA66AE0140BF1154E3A226A7641D0D0A081), compiling. 
+[2022.05.20-14.32.43:533][605]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 00F9768D25FE368510A8268F4654489125C79FC3), compiling. 
+[2022.05.20-14.32.43:534][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 88221C3E66CE377DEA6BF86A98FD6C51C314A777), compiling. 
+[2022.05.20-14.32.43:535][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AC6CBAC3A67D06EDE2B6E467F725AAD4DDD908CF), compiling. 
+[2022.05.20-14.32.43:536][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: E61C9ABC793EA780EAF21CD80C52A0F6199C8647), compiling. 
+[2022.05.20-14.32.43:538][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 372FC208E2AD10EDAEC7A684E90F6B9F213A159D), compiling. 
+[2022.05.20-14.32.43:545][605]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 3ED3017E5BA52023B6C194CC48E6A8EE792568D9), compiling. 
+[2022.05.20-14.32.43:546][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 28751F19374870723F369C1734DAF1D10C43E20A), compiling. 
+[2022.05.20-14.32.43:547][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 04498B4DED5F4A3D4E29333BE3C35DF40E3CE556), compiling. 
+[2022.05.20-14.32.43:549][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 40C91A83581F1DF8BAE31275C522B5ECE924CC73), compiling. 
+[2022.05.20-14.32.43:550][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7EFC65BE3AE6D209F1AA41A365A3F2D3CB268AA0), compiling. 
+[2022.05.20-14.32.43:551][605]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: F19E35D6AE9776E1728210453DE9EBFD5629C3E1), compiling. 
+[2022.05.20-14.32.43:555][605]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 4
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.43:586][607]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.43:587][607]MaterialEditorStats: Base pass shader: 117 instructions
+[2022.05.20-14.32.43:587][607]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2022.05.20-14.32.43:587][607]MaterialEditorStats: Base pass vertex shader: 42 instructions
+[2022.05.20-14.32.43:587][607]MaterialEditorStats: Texture samplers: 2/16
+[2022.05.20-14.32.43:914][641]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2022.05.20-14.32.43:915][641]LogShaderCompilers: Display: Started 3 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.44:460][697]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.32.44:460][697]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.32.44:497][700]LogSlate: Window 'Rope' being destroyed
+[2022.05.20-14.33.00:852][626]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: A7B19F6634A593AB769B19FB558BE25E6BACD7EB), compiling. 
+[2022.05.20-14.33.00:854][626]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: CEDBA73D2B0EF59FED9CE9AC8FE2A2FA0EAC4B65), compiling. 
+[2022.05.20-14.33.00:856][626]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.33.00:856][626]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.05.20-14.33.00:856][626]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.00:861][627]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.00:865][628]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.33.00:865][628]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.00:867][628]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.00:869][628]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.05.20-14.33.00:869][628]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.01:504][704]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.05.20-14.33.01:504][704]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.01:516][705]MaterialEditorStats: Texture samplers: 3/16
+[2022.05.20-14.33.01:516][705]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2022.05.20-14.33.01:516][705]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.02:164][782]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.33.02:164][782]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.02:989][873]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 1E6893700E2BB4D9473D25477C2A0E5B339D8497), compiling. 
+[2022.05.20-14.33.02:991][873]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 7392AF5ABC63C10AEDAA4BDB870FE77F0EA6AB64), compiling. 
+[2022.05.20-14.33.02:994][873]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.33.02:994][873]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.05.20-14.33.02:994][873]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.02:999][874]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.03:014][875]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.33.03:014][875]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.03:014][875]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.03:014][875]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.05.20-14.33.03:014][875]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.03:644][950]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.05.20-14.33.03:644][950]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.03:656][951]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.20-14.33.03:656][951]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2022.05.20-14.33.03:656][951]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.04:289][ 25]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.33.04:289][ 25]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.04:902][ 94]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 4365DFDE7ED6554ECE1233770F49C13D7C2DB29F), compiling. 
+[2022.05.20-14.33.04:903][ 94]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 992F23BE5EC6F679B894E2E4BCA22CEA8FD9AF00), compiling. 
+[2022.05.20-14.33.04:906][ 94]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.33.04:906][ 94]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.20-14.33.04:906][ 94]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.04:911][ 95]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.04:911][ 95]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.33.04:911][ 95]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.04:916][ 96]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.04:916][ 96]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 8
+[2022.05.20-14.33.04:916][ 96]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.05:539][162]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 3
+[2022.05.20-14.33.05:539][162]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.05:552][163]MaterialEditorStats: Texture samplers: 5/16
+[2022.05.20-14.33.05:552][163]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.05.20-14.33.05:552][163]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.06:189][238]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.33.06:189][238]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.06:577][282]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: EF70CCA4679CFEFBBF1DEDB1240F1F7B53344202), compiling. 
+[2022.05.20-14.33.06:579][282]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 6B1B3382EFEC5BEA126D14325F7CFCFE98DDBBB3), compiling. 
+[2022.05.20-14.33.06:581][282]MaterialEditorStats: Texture samplers: 0/16
+[2022.05.20-14.33.06:581][282]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.06:581][282]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.06:586][283]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.05.20-14.33.06:586][283]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.06:586][283]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.06:594][284]LogShaderCompilers: Display: Submitted 8 shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.06:631][287]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.33.06:631][287]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.06:922][321]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 8
+[2022.05.20-14.33.06:922][321]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.06:996][330]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 3
+[2022.05.20-14.33.06:996][330]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.07:008][331]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.20-14.33.07:008][331]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.07:008][331]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.07:648][406]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 1
+[2022.05.20-14.33.07:649][406]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: Base pass shader: 130 instructions
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.08:716][531]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.09:849][665]LogMaterialEditor: Applying material Rope
+[2022.05.20-14.33.10:270][665]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: E2218648F153AFEC8A6155B5142DC69AD226451B), compiling. 
+[2022.05.20-14.33.10:293][665]LogMaterial: Display: Missing cached shadermap for Rope in PCD3D_SM5, Default, SM5 (DDC key hash: 885D8569DC43054F9917FE82B37C650ECD941334), compiling. 
+[2022.05.20-14.33.10:323][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.05.20-14.33.10:326][665]LogShaderCompilers: Display: Submitted 1 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.10:636][665]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2022.05.20-14.33.10:636][665]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.33.10:647][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.20-14.33.10:654][665]MaterialEditorStats: Texture samplers: 4/16
+[2022.05.20-14.33.10:654][665]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.10:654][665]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.10:675][667]LogShaderCompilers: Display: Submitted 5 shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.10:675][667]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 5
+[2022.05.20-14.33.10:675][667]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 2
+[2022.05.20-14.33.10:675][667]LogShaderCompilers: Display: Started 5 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.33.10:692][667]MaterialEditorStats: Texture samplers: 6/16
+[2022.05.20-14.33.10:692][667]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.10:692][667]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.11:132][720]LogMaterialEditor: Saving and Compiling material Rope
+[2022.05.20-14.33.11:541][720]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope9B7102784E630ED9C347D19755909DC7.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope.uasset'
+[2022.05.20-14.33.11:962][720]AssetCheck: New page: Asset Save: Rope
+[2022.05.20-14.33.11:962][720]LogContentValidation: Display: Validating Material /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: Base pass shader: 130 instructions
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 204 instructions
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: Texture samplers: 7/16
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2022.05.20-14.33.11:963][720]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.05.20-14.33.12:417][767]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.33.12:417][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.33.21:097][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.20-14.33.22:816][768]LogSlate: Window 'Save Content' being destroyed
+[2022.05.20-14.33.23:116][768]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_BaseColor7FA25659445630E3AF0428BFF32C85B5.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope_Material_001_BaseColor.uasset'
+[2022.05.20-14.33.23:622][768]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_MetallicF8406C2043F649D3EEA926983415D919.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope_Material_001_Metallic.uasset'
+[2022.05.20-14.33.24:130][768]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_NormalD8E6E3D544326B87F49512810042C035.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope_Material_001_Normal.uasset'
+[2022.05.20-14.33.24:663][768]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_Roughness821749304D8A4F5511B6809ABDA7EBF8.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope_Material_001_Roughness.uasset'
+[2022.05.20-14.33.25:118][768]LightingResults: New page: Lighting Build
+[2022.05.20-14.33.25:119][768]LoadErrors: New page: Loading map: Level2StorageRoom.umap
+[2022.05.20-14.33.25:174][768]LogWorld: UWorld::CleanupWorld for Level1RestingStation, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.33.25:174][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.33.25:174][768]MapCheck: New page: Map Check
+[2022.05.20-14.33.25:174][768]LightingResults: New page: Lighting Build
+[2022.05.20-14.33.25:178][768]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.20-14.33.25:180][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.05.20-14.33.25:226][768]LogAudio: Display: Audio Device (ID: 1) registered with world 'Level2StorageRoom'.
+[2022.05.20-14.33.25:226][768]LogAIModule: Creating AISystem for world Level2StorageRoom
+[2022.05.20-14.33.25:244][768]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.05.20-14.33.25:252][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.05.20-14.33.25:341][768]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.05.20-14.33.25:341][768]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.336ms to complete.
+[2022.05.20-14.33.25:341][768]LogFileHelpers: Loading map 'Level2StorageRoom' took 0.239
+[2022.05.20-14.33.25:341][768]LogSlate: Window 'Open Level' being destroyed
+[2022.05.20-14.33.25:351][768]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.20-14.33.25:351][768]LogContentValidation: Display: Validating Texture2D /Game/Assests/Rope/Rope_Material_001_Roughness.Rope_Material_001_Roughness
+[2022.05.20-14.33.25:351][768]LogContentValidation: Display: Validating Texture2D /Game/Assests/Rope/Rope_Material_001_Normal.Rope_Material_001_Normal
+[2022.05.20-14.33.25:351][768]LogContentValidation: Display: Validating Texture2D /Game/Assests/Rope/Rope_Material_001_Metallic.Rope_Material_001_Metallic
+[2022.05.20-14.33.25:351][768]LogContentValidation: Display: Validating Texture2D /Game/Assests/Rope/Rope_Material_001_BaseColor.Rope_Material_001_BaseColor
+[2022.05.20-14.33.44:064][927]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.05.20-14.33.44:083][927]LogContentBrowser: Creating deferred item: NewFolder
+[2022.05.20-14.33.45:897][145]LogContentBrowser: Attempting asset rename: NewFolder -> Rope
+[2022.05.20-14.33.45:899][145]LogContentBrowser: End creating deferred item NewFolder
+[2022.05.20-14.34.25:622][899]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/RopeBB5CF094467F44E4D69809A6296255D5.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope.uasset'
+[2022.05.20-14.34.26:091][899]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_BaseColor26E348F6483CFD4242A03D91D72B01DC.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_BaseColor.uasset'
+[2022.05.20-14.34.26:615][899]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_MetallicF5DAEBF24D925905AFC58FABDA98E144.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Metallic.uasset'
+[2022.05.20-14.34.27:089][899]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_NormalFB11B6C744F2AF9BB4C78D98319218EE.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Normal.uasset'
+[2022.05.20-14.34.27:630][899]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_Roughness09F71C504968D6917AB132898CFFBBB5.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Roughness.uasset'
+[2022.05.20-14.34.28:410][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.05.20-14.34.28:416][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2022.05.20-14.34.28:421][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.20-14.34.28:425][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.20-14.34.28:429][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2022.05.20-14.34.28:439][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.05.20-14.34.28:443][899]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2022.05.20-14.34.28:739][899]SourceControl: rm 'Content/Assests/Rope/Rope.uasset'
+[2022.05.20-14.34.28:739][899]SourceControl: rm 'Content/Assests/Rope/Rope_Material_001_BaseColor.uasset'
+[2022.05.20-14.34.28:739][899]SourceControl: rm 'Content/Assests/Rope/Rope_Material_001_Metallic.uasset'
+[2022.05.20-14.34.28:739][899]SourceControl: rm 'Content/Assests/Rope/Rope_Material_001_Normal.uasset'
+[2022.05.20-14.34.28:739][899]SourceControl: rm 'Content/Assests/Rope/Rope_Material_001_Roughness.uasset'
+[2022.05.20-14.34.28:789][899]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.20-14.34.28:789][899]LogContentValidation: Display: Validating Material /Game/Assests/Textures/Rope/Rope.Rope
+[2022.05.20-14.34.28:789][899]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Roughness.Rope_Material_001_Roughness
+[2022.05.20-14.34.28:789][899]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Normal.Rope_Material_001_Normal
+[2022.05.20-14.34.28:789][899]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Metallic.Rope_Material_001_Metallic
+[2022.05.20-14.34.28:789][899]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_BaseColor.Rope_Material_001_BaseColor
+[2022.05.20-14.34.44:820][270]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Rope.fbx)
+[2022.05.20-14.34.44:850][270]LogFbx: Loading FBX Scene from T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Rope.fbx
+[2022.05.20-14.34.44:861][270]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.20-14.34.46:629][270]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.20-14.34.46:715][270]LogFbxMaterialImport: Display: Unable to find Texture file T:\2021\UAL L3 Ext Dip Computer Games 3blk Yr1\Lucas Barber-Smith lb05258301\RougeBot
+[2022.05.20-14.34.46:716][270]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: C5E0109904A82BE75766B870F7B4AA1EEE283D24), compiling. 
+[2022.05.20-14.34.46:718][270]LogFbx: Display: Triangulating static mesh Cylinder
+[2022.05.20-14.34.47:023][270]LogStaticMesh: Building static mesh Rope...
+[2022.05.20-14.34.47:133][270]LogStaticMesh: Built static mesh [0.11s] /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.34.47:188][270]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.20-14.34.47:370][274]LogShaderCompilers: Display: Submitted 2 shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.34.47:376][275]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.34.47:376][275]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.05.20-14.34.47:378][275]LogShaderCompilers: Display: Submitted 14 shader compile jobs with 'Normal' priority
+[2022.05.20-14.34.47:386][275]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 14
+[2022.05.20-14.34.47:386][275]LogShaderCompilers: Display: Started 8 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.34.48:263][371]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 6
+[2022.05.20-14.34.48:263][371]LogShaderCompilers: Display: Started 4 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.34.49:660][522]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2022.05.20-14.34.49:660][522]LogShaderCompilers: Display: Started 2 'Local' shader compile jobs with 'Normal' priority
+[2022.05.20-14.34.50:379][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.05.20-14.34.51:836][600]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.20-14.34.51:846][600]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assests/Rope/Material_001.Material_001
+[2022.05.20-14.34.52:408][600]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.20-14.34.52:882][655]LogSlate: Window 'Message Log' being destroyed
+[2022.05.20-14.34.52:886][655]LogSlate: Window 'Message Log' being destroyed
+[2022.05.20-14.34.53:675][739]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.34.54:061][739]LogSlate: Took 0.000605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.05.20-14.35.08:746][336]LogActorFactory: Actor Factory created Rope
+[2022.05.20-14.35.09:067][373]LogActorFactory: Actor Factory created Rope
+[2022.05.20-14.35.19:318][566]Cmd: TRANSACTION UNDO
+[2022.05.20-14.35.19:318][566]LogEditorTransaction: Undo Move Actors
+[2022.05.20-14.35.23:368][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.05.20-14.35.24:700][965]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.20-14.35.24:954][965]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.35.24:954][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.35.24:959][965]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.35.25:116][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.05.20-14.37.09:513][512]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Rope.fbx)
+[2022.05.20-14.37.09:541][512]LogFbx: Loading FBX Scene from T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/Rope.fbx
+[2022.05.20-14.37.09:551][512]LogFbx: FBX Scene Loaded Succesfully
+[2022.05.20-14.37.10:866][512]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.05.20-14.37.10:917][512]LogFbxMaterialImport: Display: Unable to find Texture file T:\2021\UAL L3 Ext Dip Computer Games 3blk Yr1\Lucas Barber-Smith lb05258301\RougeBot
+[2022.05.20-14.37.10:919][512]LogMaterial: Display: Missing cached shadermap for Material_001 in PCD3D_SM5, Default, SM5 (DDC key hash: B97CB6D613C11B3024A6EB643E6D9E96AD174600), compiling. 
+[2022.05.20-14.37.10:920][512]LogFbx: Display: Triangulating static mesh Cylinder
+[2022.05.20-14.37.11:206][512]LogStaticMesh: Building static mesh Rope...
+[2022.05.20-14.37.11:319][512]LogStaticMesh: Built static mesh [0.11s] /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.37.11:374][512]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.05.20-14.37.11:520][512]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.05.20-14.37.11:520][512]LogShaderCompilers: Display: Total job queries 143, among them cache hits 53 (37.06%)
+[2022.05.20-14.37.11:520][512]LogShaderCompilers: Display: Tracking 80 distinct input hashes that result in 57 distinct outputs (71.25%)
+[2022.05.20-14.37.11:520][512]LogShaderCompilers: Display: RAM used: 0.33 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.05.20-14.37.11:520][512]LogShaderCompilers: Display: ================================================
+[2022.05.20-14.37.13:148][704]LogSlate: Window 'Message Log' being destroyed
+[2022.05.20-14.37.13:151][704]LogSlate: Window 'Message Log' being destroyed
+[2022.05.20-14.37.15:182][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.05.20-14.37.16:307][922]LogSlate: Window 'Delete Assets' being destroyed
+[2022.05.20-14.37.16:316][922]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Assests/Rope/Material_001.Material_001
+[2022.05.20-14.37.16:517][922]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.05.20-14.37.17:063][979]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.37.33:238][681]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope60C8A12E464C0190C963A092896519E9.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope.uasset'
+[2022.05.20-14.37.33:684][681]AssetCheck: New page: Asset Save: Rope
+[2022.05.20-14.37.33:684][681]LogContentValidation: Display: Validating StaticMesh /Game/Assests/Rope/Rope.Rope
+[2022.05.20-14.37.33:841][698]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.05.20-14.37.33:841][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.20-14.37.35:011][796]LogActorFactory: Actor Factory created Rope
+[2022.05.20-14.37.35:649][871]LogActorFactory: Actor Factory created Rope
+[2022.05.20-14.37.37:397][ 77]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2022.05.20-14.37.40:380][433]Cmd: TRANSACTION UNDO
+[2022.05.20-14.37.40:380][433]LogEditorTransaction: Undo Move Actors
+[2022.05.20-14.37.40:815][446]Cmd: TRANSACTION UNDO
+[2022.05.20-14.37.40:815][446]LogEditorTransaction: Undo Create Actors
+[2022.05.20-14.43.21:574][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.05.20-14.43.23:802][815]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Level2StorageRoom_Auto1C3E512BD4BCA2F594B03FE8F93A8962D.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Autosaves/Game/ThirdPersonBP/Maps/Level2StorageRoom_Auto1.umap'
+[2022.05.20-14.43.23:837][815]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/Level2StorageRoom' took 2.269
+[2022.05.20-14.43.23:837][815]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 2.269
+[2022.05.20-15.00.30:728][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.05.20-15.00.32:400][ 20]LogSlate: Window 'Save Content' being destroyed
+[2022.05.20-15.00.34:000][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.05.20-15.00.36:155][161]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Level2StorageRoomDD825C3148AB8068BC19A385DC145F39.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/ThirdPersonBP/Maps/Level2StorageRoom.umap'
+[2022.05.20-15.00.36:292][161]LogFileHelpers: Saving map 'Level2StorageRoom' took 2.297
+[2022.05.20-15.00.36:357][161]AssetCheck: New page: Asset Save: Level2StorageRoom
+[2022.05.20-15.00.36:357][161]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level2StorageRoom.Level2StorageRoom
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/2D/Paper2D/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/FX/Niagara/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/PythonScriptPlugin/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXR/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXREyeTracker/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/OpenXRHandTracking/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:214][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:215][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:215][559]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at '//mediaserver3/artpcs/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB'
+[2022.05.20-15.00.40:810][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope8603815541E6E09BCD3C1FA345F5ED91.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Rope/Rope.uasset'
+[2022.05.20-15.00.40:887][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope5FC41EA74919F40399FD13A93A37334C.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope.uasset'
+[2022.05.20-15.00.40:957][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_BaseColorA63EF229427117E635972888919AA6F7.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_BaseColor.uasset'
+[2022.05.20-15.00.41:005][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_MetallicB1D9396E4585742EFCA37D9520BC52F6.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Metallic.uasset'
+[2022.05.20-15.00.41:074][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_Normal2AC0FB844AA3F5612F61B3B26EFECE8C.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Normal.uasset'
+[2022.05.20-15.00.41:131][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Rope_Material_001_RoughnessA91709014DD9F518B2A60A98653E616F.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/Assests/Textures/Rope/Rope_Material_001_Roughness.uasset'
+[2022.05.20-15.00.41:158][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.05.20-15.00.43:357][559]LogSavePackage: Moving 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Saved/Level2StorageRoom3E989E0044907ED5F26ECBB15A7D907A.tmp' to 'T:/2021/UAL L3 Ext Dip Computer Games 3blk Yr1/Lucas Barber-Smith lb05258301/RougeBot/VerticalSlice_RB/Content/ThirdPersonBP/Maps/Level2StorageRoom.umap'
+[2022.05.20-15.00.43:474][559]LogFileHelpers: Saving map 'Level2StorageRoom' took 2.322
+[2022.05.20-15.00.45:342][559]LogSlate: Window 'Submit Files' being destroyed
+[2022.05.20-15.00.48:866][559]LogSourceControl: commit successful: [master cbd11aa] g
+[2022.05.20-15.00.49:173][559]SourceControl: [master cbd11aa] g
+[2022.05.20-15.00.49:173][559]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Rope/Rope.uasset
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Textures/Rope/Rope.uasset
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Textures/Rope/Rope_Material_001_BaseColor.uasset
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Textures/Rope/Rope_Material_001_Metallic.uasset
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Textures/Rope/Rope_Material_001_Normal.uasset
+[2022.05.20-15.00.49:173][559]SourceControl:  create mode 100644 Content/Assests/Textures/Rope/Rope_Material_001_Roughness.uasset
+[2022.05.20-15.00.49:177][559]SourceControl: Commited [master cbd11aa] g.
+[2022.05.20-15.00.49:221][560]AssetCheck: New page: Asset Save: multiple assets
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating StaticMesh /Game/Assests/Rope/Rope.Rope
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating Material /Game/Assests/Textures/Rope/Rope.Rope
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Roughness.Rope_Material_001_Roughness
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Normal.Rope_Material_001_Normal
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_Metallic.Rope_Material_001_Metallic
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating Texture2D /Game/Assests/Textures/Rope/Rope_Material_001_BaseColor.Rope_Material_001_BaseColor
+[2022.05.20-15.00.49:221][560]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/Level2StorageRoom.Level2StorageRoom
